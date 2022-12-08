@@ -16,5 +16,5 @@ with open("input1.txt") as f:
         highestCalories.append(maxCalories)
         caloriesList.remove(maxCalories)
 
-    print("first puzzle answer =" + str(highestCalories[0])) #69795
-    print("second puzzle answer =" + str(sum(highestCalories))) #208437
+    print("first puzzle answer =" + str(highestCalories[0]))
+    print("second puzzle answer =" + str(sum(highestCalories)))
